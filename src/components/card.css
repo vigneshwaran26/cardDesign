@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+.cards-list {
+    z-index: 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+.box{
+    box-shadow: 0px 4px 7px rgba(0,0,0,.5);
+    background: #258D60;
+    position: relative;
+    float:left;
+    margin: 10px;
+    width: 250px;
+    height: 200px;
+    box-sizing: border-box;
+    border-radius: 15px 50px 30px;
+    display: grid;
+    align-items: center;
+    transition: 0.2s ease;
+    box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+}
+.img-box{
+    width: inherit;
+    height: inherit;
+    box-sizing: border-box;
+    border-radius: 15px 50px 30px;
+    opacity: 1;
+    transition: .7s ease;
+}
+
+.img-box:hover{
+    opacity: 0.3;
+}
+
+.box:hover{
+    width: 255px;
+    height: 205px;
+}
+.courses-lang{
+    color: white;
+    position: absolute;
+    text-decoration: none;
+    left: 33px;
+    /* 115px */
+    top: 115px;
+    opacity: 0;
+    transition: .7s ease;
+    font-weight: bold;
+    
+}
+.box:hover .img-box{
+    opacity: 0.3;
+}
+
+.box:hover .courses-lang{
+    position: absolute;
+    text-decoration: none;
+    left: 33px;
+    top: 90px;
+    opacity: 1;
+    
+}
+.courses-list{
+    color: white;
+    position: absolute;
+    text-decoration: none;
+    left: 33px;
+    /* 115px */
+    top: 125px;
+    opacity: 0;
+    transition: .7s ease;
+   
+}
+.box:hover .courses-list{
+    position: absolute;
+    text-decoration: none;
+    left: 33px;
+    top: 110px;
+    opacity: 1;
+    
+}

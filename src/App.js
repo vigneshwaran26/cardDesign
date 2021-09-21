@@ -1,24 +1,22 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Cardslidertwo from './card2/cardslider2';
+import Cardslider3 from './cardthree/cardslider3';
+import Cardslider from './components/cardslider';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+   
+     <h2 className='title'>Card design 1</h2>
+      <Cardslider/>
+      <h2 className='title'>Card design 2</h2>
+      <Cardslidertwo/>
+      <h2 className='title'>Card design 3</h2>
+      <Cardslider3/>
     </div>
+    
   );
 }
 
