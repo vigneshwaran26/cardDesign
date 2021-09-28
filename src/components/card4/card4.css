@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
-.cards-list3 {
+.cards-list4 {
     z-index: 0;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
   }
 
-.box3{
+.box4{
     box-shadow: 0px 4px 7px rgba(0,0,0,.5);
     /* background: #258D60; */
     background: linear-gradient(to bottom,rgba(188, 192, 192, 0.226), #71c09eec);
@@ -14,7 +14,7 @@
     float:left;
     margin: 10px;
     width: 250px;
-    height: 200px;
+    height: 290px;
     box-sizing: border-box;
     border-radius: 15px ;
     display: grid;
@@ -22,7 +22,7 @@
     transition: 0.2s ease;
     box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
 }
-.img-box3{
+.img-box4{
     width: inherit;
     height: inherit;
     box-sizing: border-box;
@@ -31,56 +31,56 @@
     transition: .7s ease;
 }
 
-.img-box3:hover{
+.img-box4:hover{
     opacity: 0.3;
 }
 
-.box3:hover{
+.box4:hover{
     width: 255px;
-    height: 205px;
+    height: 290px;
 }
-.courses-lang3{
+.courses-lang4{
     color: #258D60;
     position: absolute;
     text-decoration: none;
     left: 33px;
     /* 115px */
-    top: 115px;
+    top: 180px;
     opacity: 0;
     font-size: 21px;
     transition: .7s ease;
     font-weight: bold;
-    text-shadow: 1px 0px #FFFFFF
+    
 }
-.box3:hover .img-box3{
+.box4:hover .img-box4{
     opacity: 0.3;
 }
 
-.box3:hover .courses-lang3{
+.box4:hover .courses-lang4{
     position: absolute;
     text-decoration: none;
     left: 33px;
-    top: 90px;
+    top: 170px;
     opacity: 1;
     
 }
-.courses-list3{
+.courses-list4{
     color: white;
     position: absolute;
     text-decoration: none;
     left: 33px;
     /* 115px */
-    top: 125px;
+    top: 200px;
     opacity: 0;
     font-size: 21px;
     transition: .7s ease;
    
 }
-.box3:hover .courses-list3{
+.box4:hover .courses-list4{
     position: absolute;
     text-decoration: none;
     left: 33px;
-    top: 110px;
+    top: 190px;
     opacity: 1;
     
 }
